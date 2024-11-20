@@ -7,11 +7,7 @@ git
     box-sizing: border-box;
     font-family: "Bitter","Montserrat";
 }
-.container
-{
-    max-width: 1440px;
-    padding: 20px;
-}
+
 
 header{
 margin-left: 180px;
@@ -19,7 +15,7 @@ padding: 20px;
 }
 
 .crnavbar{
-    margin-top: 60px;
+
     width: 100px;
     margin-left: 100px;
     display: flex;
@@ -66,7 +62,8 @@ padding: 20px;
     padding: 20px;
     width: 1140px;
     height: 510px;
-    margin-left: 300px;
+ 
+    margin-left:300px;
     backdrop-filter: blur(48px);
     size: 1280px;
     background-image: url("/assets/images/samsommer-vddccTqwal8-unsplash\ 1.png");
@@ -111,73 +108,13 @@ padding: 20px;
     margin-top: 15px;
     margin-left: 80px;
 }
-#panel{
-    display: flex;
-    border-color:#D3A562;
-    background-color: #FDFBF9;
-    width: 727px;
-    height: 64px;
-    margin-left: -0.5px;
-    border-radius: 32px;
-    border: 1px;    
-    border-radius: 32px;
-}
-.ppanel{
-    display: flex;
-
-}
-.pbtn{
-    width:150px;
-    height: 40px;
-    margin-top: 12px;
-    margin-left: 611.5px;
-    padding: 10px 24px 10px 24px;
-    gap: 10px;
-    border-radius: 12px;
-    color: #FFFFFF;
-    background-color: #D3A562;
-    border-style: hidden;
-    font-family: "Bitter";
-    font-weight: 400;
-    
-}
-#panel{
-    display: flex;
-    border-color:#D3A562;
-    background-color: #FDFBF9;
-    width: 727px;
-    height: 64px;
-    margin-left: -0.5px;
-    border-radius: 32px;
-    border: 1px;    
-    border-radius: 32px;
-}
-.ppanel{
-    display: flex;
-
-}
-.pbtn{
-    width:150px;
-    height: 40px;
-    margin-top: 12px;
-    margin-left: 611.5px;
-    padding: 10px 24px 10px 24px;
-    gap: 10px;
-    border-radius: 12px;
-    color: #FFFFFF;
-    background-color: #D3A562;
-    border-style: hidden;
-    font-family: "Bitter";
-    font-weight: 400;
-    
-}
-#lupa{
+#poisk{
 
  
     margin-left:180px;
   
 }
-.lupa{
+.panel{
     width: 900px;
     padding:15px;
     height:65px;
@@ -204,7 +141,9 @@ padding: 20px;
         color:rgba(136, 140, 148, 1);
     }
    
-}.pbtn{
+}
+
+.pbtn{
     width:150px;
     height: 40px;
     margin-top: 12px;
@@ -219,6 +158,7 @@ padding: 20px;
     font-weight: 400;
     
 }
+
 #card{
     margin-top:80px;
     margin-left:20px;
@@ -256,7 +196,6 @@ padding: 20px;
     border:1px solid rgba(211, 165, 98, 1);
    
 }
-
 .first1{
     margin-left:280px;
     width: 342px;
@@ -405,4 +344,130 @@ padding: 20px;
 .firsthr5{
     border:1px solid rgba(211, 165, 98, 1);
    
+}
+
+.verticalline{
+    width: 2px;
+    height: 1430px;
+    background-color:rgba(189, 189, 189, 1);
+    margin-left: 880px;
+    margin-top: -1430px;
+}
+
+#recards{
+    margin-left: 980px;
+    margin-top: -1450px;
+}
+.reall{
+    display: block;
+}
+.refirst{
+    width: 770px;
+    display: flex;
+    gap:40px;
+   
+}
+.refirsttexts{
+  
+    h5{ 
+        font-family: "Bitter";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        color:rgba(211, 165, 98, 1);
+    }
+    h6{ margin-top: -5px;
+        font-weight: 600;
+        font-size: 32px;
+        font-family: "Montserrat";
+        color:rgba(50, 46, 41, 1);
+    }
+    p{
+        margin-top: -5px;
+        font-family: "Bitter";
+        font-size: 13px;
+        font-weight: 400;
+        color:rgba(50, 46, 41, 1);
+    }
+}
+.refirsthr{
+
+   
+        border:1px solid rgba(211, 165, 98, 1);
+  
+
+
+    
+}
+
+.resocnd{
+    margin-top: 30px;
+    width: 724px;
+    display: block;
+    h1{
+        font-family: "Bitter";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        color:rgba(211, 165, 98, 1);
+    }
+    h5{
+        margin-top: -5px;
+        font-weight: 600;
+        font-size: 32px;
+        font-family: "Montserrat";
+        color:rgba(50, 46, 41, 1);
+    }
+}
+
+.respast{
+    display: flex;
+    gap:20px;
+    p{
+        font-family: "Bitter";
+        font-size: 14px;
+        font-weight: 400;
+        color:rgba(50, 46, 41, 1);
+    }
+    button{
+     background-color:rgba(211, 165, 98, 1);
+     border:1px hidden ;
+     border-radius:12px;
+     padding: 10px 24px 10px 24px;
+     width:124px ;
+     height: 40px;
+     color:rgba(255, 255, 255, 1);
+     font-family: "Bitter";
+     font-size: 14px;
+     font-weight: 400;
+    margin-top: 30px;
+    margin-left:150px;
+}
+}
+.resocndhr{
+    border:1px solid rgba(211, 165, 98, 1);
+   
+}
+
+.rethird{
+    width: 724px;
+    display: block;
+    h1{
+        font-family: "Bitter";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        color:rgba(211, 165, 98, 1);
+    }
+    h5{
+        margin-top: -5px;
+        font-weight: 600;
+        font-size: 32px;
+        font-family: "Montserrat";
+        color:rgba(50, 46, 41, 1);
+    }
+}
+
+.reimg{
+    margin-top: 30px;
 }
